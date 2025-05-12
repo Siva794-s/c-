@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include<conio.h>
+void main()
+{
+    int a,b,c,d;
+    printf("enter the four numbers:");
+    scanf("%d%d%d%d",&a,&b,&c,&d);
+    int big=a>b&&b>c&&c>d>a:(b>c&&c>d):b?c>d:c);
+    int small=a<b&&b<c&&c<d<a:(b<c&&c<d):b?c<d:c);
+    int sum=big+small;
+    printf("%d",big);
+}
