@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main() {
+    printf("India is my country.\n");
+    printf("It is a land of rich culture and heritage.\n");
+    printf("People of different religions live here in harmony.\n");
+    printf("I am proud to be an Indian.\n");
+
+    return 0;
+}
